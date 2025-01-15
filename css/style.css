@@ -1,9 +1,10 @@
 /* Estilos generales */
 body {
     font-family: "Rye", serif;
-    background-color: #dcc496;
+    background-color: #dccbac;
     margin: 0;
     padding: 0;
+    filter: contrast(120%) brightness(95%);
 }
 
 /* Navbar */
@@ -35,8 +36,31 @@ nav ul li a {
 .banner-img {
     width: 100%;
     height: auto;
-    max-height: 400px;
-    object-fit: cover;
+    max-height: 450px;
+    object-fit:cover;
+}
+
+.logo {
+    display: flex;
+    padding: 15px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+#logo {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+#menu {
+    font-size: 36px;
 }
 
 /* Carta */
@@ -56,8 +80,9 @@ nav ul li a {
     text-decoration: underline;
 }
 .decorative-img {
-    width: 80px;
+    width: 120px;
     height: auto;
+    margin-right: 10%;
 }
 .menu-item {
     margin-bottom: 15px;
@@ -72,8 +97,65 @@ nav ul li a {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color:#314a1d;
     color: white;
     text-align: center;
     padding: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer img {
+    width: 16px;
+    height: auto;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 520px) {
+    
+    .logo {
+        padding-top: 15px;
+    }
+    
+    h1 {
+        font-size: 36px;
+    }
+    
+    #logo {
+        width: 120px;
+    }
+
+    .decorative-img {
+        width: 60px;
+        margin-right: 10%;
+    }
+
+    #menu {
+        font-size: 28px;
+    }
+
+    .menu-section {
+        padding: 8px;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    ul {
+        padding-inline-start: 20px;
+    }
 }
