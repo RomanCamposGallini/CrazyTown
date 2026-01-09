@@ -49,14 +49,13 @@ nav ul li a {
 }
 
 h1 {
-    font-size: 96px;
+    font-size: 64px;
 }
 
 #logo {
-    width: 250px;
+    width: 300px;
     height: auto;
     border-radius: 50%;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
 }
 
 .menu {
@@ -127,7 +126,7 @@ footer img {
     }
     
     #logo {
-        width: 120px;
+        width: 140px;
     }
 
     .decorative-img {
